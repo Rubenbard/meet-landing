@@ -1,0 +1,114 @@
+:root {
+  --primary-color: #000;
+  --secondary-color: #fff;
+  --color-cyan-600: #4D96A9;
+  --color-cyan-300: #8FE3F9;
+  --color-purple-600: #855FB1;
+  --color-purple-300: #D9B8FF;
+  --color-slate-900: #28283D;
+  --color-slate-600: #87879D;
+  --color-slate-300: #D1D1DF;
+  --color-white: #FAFAFA;
+}
+
+.title{
+color: var(--color-slate-900, #28283D);
+text-align: center;
+font-feature-settings: 'liga' off, 'clig' off;
+font-family: "Red Hat Display";
+font-style: normal;
+line-height: 110%; /* 44px, 52.8px , 70.4px */
+font-weight: 900;
+}
+
+.title{
+font-size: 40px;
+}
+
+.title.tablet {
+font-size: 48px;
+}
+
+.title.desktop {
+font-size: 64px;
+}
+
+.title2{
+    font-family: "Red Hat Display";
+color: var(--color-slate-900, #28283D);
+text-align: center;
+font-feature-settings: 'liga' off, 'clig' off;
+font-family: "Red Hat Display";
+font-style: normal;
+line-height: 110%; 
+font-style: normal;
+font-weight: 900;
+}
+
+.title2{
+font-size: 32px;
+}
+
+.title2-tablet {
+font-family: "Red Hat Display";
+font-size: 36 px;
+}
+
+.title2-desktop {
+    font-family: "Red Hat Display";
+font-size: 40px;
+}
+ 
+.paragraph {
+    font-family: "Red Hat Display";
+color: var(--color-slate-600, #87879D);
+text-align: center;
+font-feature-settings: 'liga' off, 'clig' off;
+font-style: normal;
+font-weight: 500;
+line-height: 150%;
+}
+
+.p-mobile .p-tablet{
+font-size: 16px;
+}
+
+.p-desktop {
+font-family: "Red Hat Display";
+font-size: 18px;
+}
+
+h3{
+     font-family: "Red Hat Display";
+color: var(--color-cyan-600, #4D96A9);
+text-align: center;
+font-feature-settings: 'liga' off, 'clig' off;
+font-style: normal;
+font-weight: 900;
+line-height: 110%; /* 17.6px */
+letter-spacing: 4px;
+text-transform: uppercase;
+}
+
+h3 {
+font-size: 12px;
+}
+
+.h2-tablet {
+font-family: "Red Hat Display";
+font-size: 14px;
+ }
+
+.h2-desktop {
+font-family: "Red Hat Display";
+font-size: 16px;
+}
+
+button {
+  color: var(--color-white, #FAFAFA);
+  font-family: "Red Hat Display";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 150%; /* 24px */
+}
